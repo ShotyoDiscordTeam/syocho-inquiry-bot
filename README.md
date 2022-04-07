@@ -1,0 +1,1 @@
+# syocho-inquiry-bot
