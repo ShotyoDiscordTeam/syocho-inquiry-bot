@@ -1,0 +1,13 @@
+{
+  "name": "syocho-inquiry-bot",
+  "version": "1.0.0",
+  "description": "syocho-inquiry-bot",
+  "main": "node.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  },
+  "license": "MIT"
+}
