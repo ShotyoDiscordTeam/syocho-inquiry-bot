@@ -10,10 +10,10 @@ client.on("message", async message => {
 
   if (message.author.bot) return;
   if (message.channel.id === channelid1){
-  const embed = new Discord.MessageEmbed()
-      .setTitle("" + '匿名システム')
-      .addField("送信した内容:", message.content)
-  client.channels.cache.get(channelid2).send(embed)
+    //const embed1 = new Discord.MessageEmbed()
+    //.setTitle("ユーザー: " + message.author.tag)
+    //.addField("送信した内容:", message.content)
+  client.channels.cache.get(channelid2).send(message.content)
   }
 
 })
